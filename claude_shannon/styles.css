@@ -1,0 +1,159 @@
+html,
+body {
+	width: 100%;
+	height: auto;
+	margin: 10px 0px 10px 0px;
+	background-color: #0c0c0c;
+}
+
+header {
+	border: 1px solid #1af2dc;  
+}
+
+main {}
+
+.text {
+	display: inline-block; 
+	position: relative; 
+	margin: -40px 110px 10px 10px;
+}
+
+.name {
+	color: azure;
+	font-size: 65px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.description {
+	color: #289fba;
+	font-size: 30px;
+	/*font-family: 'Thasadith', sans-serif;*/
+	padding-left: 100px;
+
+}
+
+.container { 
+	/* как сделать его responsive по максимуму? */
+	max-width: 100%;
+	margin-top: 100px;
+	margin-left: 65px;
+}
+
+.photos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.photos img {
+	width: 270px;
+	height: 270px;
+}
+
+.photo-circular {
+	border: 1px solid transparent;
+	/*как сделать паддинги?*/
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#tribute-info {
+	margin: 0 auto; 
+}
+
+#headline {
+	color: #1af2dc;  
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3em; 
+	text-align: center; 
+	margin: 200px 0px 100px 0px;  
+}  
+
+#list { 
+	
+} 
+
+.date {  
+	width: 25%; 
+	background: #000;  
+	border: 1px solid white;    
+	border-radius: 15px; 
+	margin: 25px 0px 5px 200px; 
+	padding: 5px 0px 5px 5px;  
+	text-align: center; 
+
+}  
+
+.date p { 
+	color: aqua;  
+	font-family: 'Special Elite', cursive; 
+	font-size: 1em; 
+}
+
+.events {  
+	width: 45%; 
+	background: #1af2dc; 
+	border: 2px solid rgb(2, 70, 2);   
+	border-radius: 15px;  
+	margin: 0px 150px 0px 500px; 
+	padding: 15px;  
+	opacity: 0.7; 
+	color: #fff;
+} 
+
+.events p { 
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 18px;  
+	
+}
+
+blockquote { 
+	display: block;    
+	width: 50%; 
+	border: 2px solid #289fba; 
+	margin: 100px 400px 100px 400px; 
+	padding: 20px;  
+	border-radius: 15px 50px; 
+	
+} 
+
+blockquote p { 
+	color: aliceblue;  
+	font-family: 'Quicksand', sans-serif;  
+	font-size: 20px;  
+} 
+
+footer { 
+	border: 1px solid #1af2dc; 
+} 
+
+footer div { 
+	display: block; 
+	width: 100%; 
+} 
+
+footer p { 
+	color: wheat; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
