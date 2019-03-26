@@ -1,0 +1,112 @@
+html, 
+body { 
+    background: url(deus_3.jpg) no-repeat center fixed;  
+    text-align: center;  
+    font-family: 'Play', sans-serif;  
+    min-width: 350px;
+    /* font-family: 'Exo', sans-serif; */ 
+}  
+
+#title { 
+    margin-top: 20px;  
+    margin-bottom: 35px; 
+    font-size: 60px; 
+    letter-spacing: 2px; 
+}
+
+.form-info { 
+    background-color: #ffffff00;    
+    margin: 0 auto; 
+    border-radius: 5px;  
+    border: 1px solid #ffffff; 
+    width: 75%; 
+    max-width: 900px; 
+    padding: 10px; 
+    padding-top: 20px; 
+}   
+
+#description {   
+    font-family: 'Exo', sans-serif;
+    font-size: 20px; 
+    border-right: 2px solid #c96310; 
+    border-left: 2px solid #c96310; 
+    padding: 10px; 
+    color: #01071c; 
+}  
+
+.labels { 
+    display: inline-block;  
+    text-align: right; 
+    width: 40%;  
+    padding: 5px;  
+    margin-top: 5px;   
+    margin-left: 10px; 
+    font-size: 20px;  
+    color: #fff;  
+    font-size: 18px; 
+}
+
+.right-side {  
+    display: inline-block; 
+    text-align: left; 
+    width: 45%; 
+    text-align: middle; 
+} 
+
+.input-field { 
+    height: 35px; 
+    width: 280px;  
+    padding: 5px; 
+    margin: 10px;  
+    border: 2px solid #f49842;  
+    border-radius: 5px;  
+    background-color: #ffffff;   
+} 
+ 
+.radio, .checkbox { 
+    position: relative; 
+    left: -20px;  
+    margin-left: 10px;  
+    margin-top: 10px;  
+    display: block;  
+    color: #fcae41; 
+    font-size: 18px;  
+} 
+
+.augmented { 
+    float: left; 
+    margin-right: 15px; 
+    margin-top: 10px; 
+} 
+
+#dropdown { 
+    
+} 
+
+.dropdown { 
+    height: 35px; 
+    width: 280px; 
+    padding: 5px; 
+    margin: 10px;   
+    margin-left: 15px;  
+} 
+
+.user-choice { 
+     margin-right: 5px; 
+} 
+
+#comments {  
+    background: #000000;  
+    color: #ff9a42; 
+    /* color: #c96310;  */
+    margin: 18px;  
+    padding: 5px; 
+} 
+
+#submit { 
+    background-color: #01071c;  
+    border-radius: 5px;  
+    border-color: #c96310; 
+    color: #fff;  
+    margin-top: 25px; 
+}

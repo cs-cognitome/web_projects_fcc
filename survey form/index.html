@@ -1,0 +1,235 @@
+<!DOC <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Augmentation Survey Form</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Play" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body> 
+    <div class="container-fluid">
+        <h1 id="title">Augmentation Survey Form</h1> 
+        <div class="form-info">
+            <p id="description">Welcome to Human Augmentation Center.
+                Proceed our short survey form & let us know what type of body or mind enhancement would you like to get. 
+                Thank you. 
+            </p> 
+            <form id="survey-form" method="GET">  
+                <!-- Full name, Age, Email -->
+                <div class="row">  
+                    <div class="col-xs-6 labels">
+                        <label id="name-label" for="name"> Full Name:  
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side"> 
+                        <input autofocus type="text" name="name" id="name" class="input-field"
+                        placeholder="Enter your full name">
+                    </div> 
+                </div> 
+                <div class="row">
+                    <div class="col-xs-6 labels">
+                        <label id="num-label" for="age"> Your age: 
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <input type="number" name="age" id="number" min="1" max="150" class="input-field"
+                        placeholder="Enter your age">
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-xs-6 labels">
+                        <label id="email-label" for="email">
+                            Your Email: 
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <input type="email" class="input-field" required 
+                        placeholder="Enter your email">
+                    </div>
+                </div>  
+                <!-- Gender 
+                <div class="row">
+                    <div class="col-xs-6 labels">
+                        <label for="user-gender">
+                            Your gender: 
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <ul style="list-style: none;">
+                            <li class="radio">
+                                <label> Male <input name="radio-buttons" value="1" type="radio" 
+                                class="user-gender"></label>
+                            </li> 
+                            <li class="radio"> 
+                                <label> Female <input name="radio-buttons" value="2" type="radio"
+                                class="user-gender"></label>
+                            </li> 
+                            <li class="radio">
+                                <label> Other <input name="radio-buttons" value="3" type="radio"
+                                class="user-gender"></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+            --> 
+                <!-- Have you ever augmented your body --> 
+                <div class="row">
+                        <div class="col-xs-6 labels">
+                            <label for="augmented-before">
+                                Have you ever augmented your body before? 
+                            </label>
+                        </div> 
+                        <div class="col-xs-6 right-side">
+                            <ul style="list-style: none;"> 
+                            <li class="radio">
+                                <label>Yes <input name="radio-buttons" value="4" type="radio"
+                                class="augmented"></label>
+                            </li> 
+                            <li class="radio">
+                                <label>No <input name="radio-buttons" value="5" type="radio"
+                                class="augmented"></label>
+                            </li>   
+                            <li class="radio">
+                                <label>Had Body Rejection <input name="radio-buttons" value="6" type="radio"
+                                class="augmented"></label>
+                            </li> 
+                        </ul>
+                        </div>
+                   </div>  
+                <!-- Type of augmentation --> 
+               <div class="row">
+                    <div class="col-xs-6 labels"> 
+                          <label for="types">What type of augmentation would
+                            you like to get? 
+                         </label> 
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <select id="dropdown" name="types" class="dropdown">
+                            <option disabled value>Select an option</option>
+                            <option value="mechanical">Mechanical augmentation</option>
+                            <option value="pharma">Physiopharmaceutical augmentation</option>
+                            <option value="genetic">Genetic augmentation</option>
+                            <option value="nanotech">Nanotechnological augmentation</option>
+                        </select>
+                    </div>
+                </div> 
+                
+                <!-- Variants for augmentation -->  
+               <div class="row"> 
+                   <div class="col-xs-6 labels">
+                       <label for="aug-variants"> You may choose one or several options. 
+                           Then we will discuss your choice & explain the further procedures. 
+                        </label>
+                   </div> 
+                   <div class="col-xs-6 right-side">
+                       <ul id="aug-variants" style="list-style: none;"> 
+                            <li class="checkbox">
+                                <label><input name="choice" value="1" type="checkbox" class="user-choice">
+                                    External Prosthetics 
+                                </label>
+                            </li> 
+                            <li class="checkbox">
+                                <label><input name="choice" value="2" type="checkbox" class="user-choice">
+                                    Artificial Neurones   
+                                </label>
+                            </li>   
+                            <li class="checkbox">
+                                <label><input name="choice" value="3" type="checkbox" class="user-choice">
+                                    Behaviour Modification  
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="4" type="checkbox" class="user-choice">
+                                    Microfibrial Muscle  
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="5" type="checkbox" class="user-choice">
+                                    Speed Enhancement 
+                                </label>
+                            </li> 
+                            <li class="checkbox">
+                                <label><input name="choice" value="6" type="checkbox" class="user-choice">
+                                    Radar Transparency  
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="7" type="checkbox" class="user-choice">
+                                    Ballistic Protection 
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="8" type="checkbox" class="user-choice">
+                                    Regeneration
+                                </label>
+                            </li>   
+                            <li class="checkbox">
+                                <label><input name="choice" value="9" type="checkbox" class="user-choice">
+                                    Environmental Resistance  
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="10" type="checkbox" class="user-choice">
+                                    Synthetic Heart 
+                                </label>
+                            </li>  
+                            <li class="checkbox">
+                                <label><input name="choice" value="10" type="checkbox" class="user-choice">
+                                    Targeting 
+                                </label>
+                            </li> 
+                            <li class="checkbox">
+                                <label><input name="choice" value="10" type="checkbox" class="user-choice">
+                                    Aqualung   
+                                </label>
+                            </li> 
+                            <li class="checkbox">
+                                <label><input name="choice" value="10" type="checkbox" class="user-choice">
+                                    Psychological Conditioning 
+                                </label>
+                            </li> 
+                        </ul>
+                   </div>
+               </div> 
+               <!-- Risks of augmentation procedure --> 
+               <div class="row">
+                    <div class="col-xs-6 labels">
+                        <label for="types">Are you aware of all possible risks? 
+                            Do you understand that your body might not accept the specific augmentation?
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <select id="dropdown" name="types" class="dropdown">
+                            <option value ="empty">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="more">Indifferent</option>
+                            <option value="indifferent">Tell me more</option>
+                        </select>
+                    </div>
+                </div>  
+                <!-- Field for comments & questions --> 
+                <div class="row">
+                    <div class="col-xs-6 labels">
+                        <label for="comments">
+                            Your comments.<br>
+                            Your questions.<br>
+                            Your wishes.
+                        </label>
+                    </div> 
+                    <div class="col-xs-6 right-side">
+                        <textarea id="comments" class="input-field" 
+                        style="height: 100px; resize: vertical;" 
+                        name="comment" placeholder="Type here..."></textarea>
+                    </div>
+                </div> 
+                <!-- Submit Button --> 
+                <button class="btn btn-primary" id="submit" type="submit">Submit Information</button> 
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
